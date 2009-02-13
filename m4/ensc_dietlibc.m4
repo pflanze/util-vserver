@@ -106,7 +106,7 @@ AC_DEFUN([ENSC_ENABLE_DIETLIBC],
 		      [which "$DIET" >/dev/null 2>/dev/null && use_dietlibc=detected || use_dietlibc=detected_no])
 
 	if test "$use_dietlibc" = detected -a "$2"; then
-	    _dietlibc_ver=$($DIET -v 2>&1 | sed '1p;d')
+	    _dietlibc_ver=$($DIET -v 2>&1 | sed 's/-.*//' | sed '1p;d')
 	    _dietlibc_ver=${_dietlibc_ver##*diet version }
 	    _dietlibc_ver=${_dietlibc_ver##*dietlibc-}
 	    _dietlibc_ver_maj=${_dietlibc_ver%%.*}
