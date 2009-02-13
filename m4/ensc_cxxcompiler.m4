@@ -27,7 +27,7 @@ AC_DEFUN([ENSC_CXXCOMPILER],
 		    #include <ostream>
 		],
 		[ensc_cv_cxx_cxxcompiler=yes],
-		[ensc_cv_cxx_cxxcompiler=no])
+		[ensc_cv_cxx_cxxcompiler=yes])
 		AC_LANG_POP(C++)
 	])
 
