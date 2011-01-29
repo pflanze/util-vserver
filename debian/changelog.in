@@ -1,3 +1,9 @@
+util-vserver (@PACKAGE_VERSION@-1.cj) unstable; urgency=low
+
+  * built from git-svn clone, w/ a couple patches
+
+ -- Christian Jaeger <chrjae@gmail.com>  @DATE@
+
 util-vserver (@PACKAGE_VERSION@-1) unstable; urgency=low
 
   * Initial release
