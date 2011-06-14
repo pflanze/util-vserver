@@ -2,10 +2,10 @@ util-vserver (10-1.cj) unstable; urgency=low
 
   * built from git-svn clone, w/ a couple patches
 
- -- Christian Jaeger <chrjae@gmail.com>  @DATE@
+ -- Christian Jaeger <chrjae@gmail.com>  Tue, 14 Jun 2011 02:30:45 -0400
 
-util-vserver (@PACKAGE_VERSION@-1) unstable; urgency=low
+util-vserver (0-1) unstable; urgency=low
 
   * Initial release
 
- -- Daniel Hokka Zakrisson <daniel@hozac.com>  @DATE@
+ -- Daniel Hokka Zakrisson <daniel@hozac.com>  Tue, 14 Jun 2011 02:30:45 -0400
