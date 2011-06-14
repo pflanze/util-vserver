@@ -1,4 +1,4 @@
-util-vserver (@PACKAGE_VERSION@-1.cj) unstable; urgency=low
+util-vserver (10-1.cj) unstable; urgency=low
 
   * built from git-svn clone, w/ a couple patches
 
